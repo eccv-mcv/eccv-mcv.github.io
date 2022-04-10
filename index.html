@@ -18,8 +18,27 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+
+        <style>
+
+        #navbar{
+        width:100%;
+        /*other styles*/
+        }
+
+        @media screen and (min-width: 800px)
+{        #content{
+        width:70%;
+        margin:0 auto;
+        }}
+
+        </style>
+
     </head>
     <body id="page-top">
+
+        <div id="navbar">
+
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
@@ -52,15 +71,15 @@
             </div>
         </header>
 
+        </div>
 
         <!-- Updates -->
         <section class="page-section bg-light" id="papers">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Call for papers</h2>
-                    <h3 class="section-subheading text-muted"></h3>
                 </div>
-                <div class="row text-center">
+                <div class="row text-left" id="content">
                     <p> The accepted peer-reviewed papers will be published in ECVA online proceedings and Springer printed proceedings. For this reason, paper submissions will adhere to the ECCV 2022 paper submission style, format, and length restrictions, as well as the camera-ready deadline as the main conference.
                     </p>
 
@@ -75,7 +94,7 @@
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">About the workshop</h2>
                 </div>
-                <div class="row text-center">
+                <div class="row text-left" id="content">
 
                     <h4>
                         Scope
@@ -94,9 +113,9 @@
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Updates</h2>
                 </div>
-                <div class="row text-center">
+                <div class="row text-center" id="content">
                     
-                    <p>Text</p>
+                    <p>To be announced.</p>
                 </div>
             </div>
         </section>
@@ -107,8 +126,19 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Workshop Schedule</h2>
-                    <h3 class="section-subheading text-muted">To be announced.</h3>
+                    <h3 class="section-subheading">Tentative paper submission schedule.</h3>
                 </div>
+
+                    <div class="text-left"  id="content">
+                    <p class="text-left"><b>Submission</b>: June 11, 2022, 11:59 PST 
+                        <br />
+                        (after MICCAI final decisions on June 2 and ECCV reviews released on May 23, 2022). </p>
+                    <p class="text-left"><b>Review period</b>: June 14, 2022 - June 30, 2022</p>
+                    <p class="text-left"><b>Notification of acceptance</b>: July 10, 2022</p>
+                    <p class="text-left"><b>Camera ready</b>: July 17, 2022 (with ECCV camera-ready deadline)</p>
+                    </div>
+
+
 <!--
                 <div class="row text-center">
                     <details>
