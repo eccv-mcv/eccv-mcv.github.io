@@ -26,11 +26,31 @@
         /*other styles*/
         }
 
+        img.sponsorTHHI{
+                width:100%;
+            }
+
+            img.sponsorNVIDIA{
+                width:70%;
+            }
+
         @media screen and (min-width: 500px)
-{        #content{
-        width:70%;
-        margin:0 auto;
-        }}
+        {
+            #content{
+                width:70%;
+                margin:0 auto;
+            }
+
+
+            img.sponsorTHHI{
+        width:50%;
+        }
+
+        img.sponsorNVIDIA{
+        width:30%;
+        }
+
+        }
 
         a {
             color: #524000;
@@ -76,6 +96,26 @@
         </header>
 
         </div>
+
+        <section class="page-section bg" id="sponsors">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Sponsors</h2>
+                    
+                    <p>
+                        Workshop is generously supported by:
+                    </p>
+                    
+            
+                    <img src="assets/img/logos/THHI-logo-small.jpg" alt="..." class='sponsorTHHI'/>
+                    <br />
+                    <img src="assets/img/logos/Nvidia_logo.png" alt="..."  class='sponsorNVIDIA'/>
+        
+                </div>
+            </div>
+        </section>
+
+
 
         <!-- Updates -->
         <section class="page-section bg-light" id="updates">
@@ -235,14 +275,6 @@
                                     </ul>
                                 </div>
                               </div>
-
-<h4>
-Acknowledgements
-</h4>
-
-<img src="assets/img/logos/THHI-logo-small.jpg" alt="..." />
-
-Partial funding from the Technion Human Health Initiative.
 
 
 
