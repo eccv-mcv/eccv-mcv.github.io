@@ -83,13 +83,17 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
+
+                <!-- NAVBAR LINK AND LOGO -->
                 <a class="navbar-brand" href="https://eccv2022.ecva.net/"><img src="assets/img/logos/ECCV-logo-partial-white.png" alt="..." /></a>
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#awards">Awards</a></li>
                         <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
                         <!-- <li class="nav-item"><a class="nav-link" href="#papers">Call for Papers</a></li> -->
                         <li class="nav-item"><a class="nav-link" href="#updates">Updates</a></li>
@@ -105,8 +109,7 @@
         <header class="masthead">
             <div class="container">
 
-                <!-- <div class="masthead-subheading">SUBHEADING TEXT</div> -->
-
+                <!-- HEADING TEXT -->
                 <div class="masthead-heading text-uppercase">
                     ECCV 2022 Medical Computer Vision Workshop
                 </div>
@@ -122,6 +125,24 @@
         </header>
 
         </div>
+
+        <!-- SECTION TEMPLATE (light background) -->
+<!--
+        <\!-- CHANGE THE SECTION CLASS TO bg-light TO ALTERNATE BETWEEN THE BACKGROUND COLORS --\>
+        <section class="page-section bg" id="SECTION_ID">
+            <\!-- SECTION_ID SHOULD MATCH THE HREF IN THE NAVBAR --\>
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">SECTION HEADER</h2>
+                    
+                    SECTION CONTENT
+                    
+                </div>
+            </div>
+        </section>
+-->
+
+
 
         <section class="page-section bg" id="sponsors">
             <div class="container">
@@ -144,7 +165,35 @@
             </div>
         </section>
 
+        <section class="page-section bg-light" id="awards">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Awards</h2>
+                    <h3 class="section-subheading text-muted">We congratulate the winners of the best paper awards</h3>
 
+                    <h4>Best paper</h4>
+                    <b>
+                        <a href="https://youtu.be/B02Ix8aGbmw">Anatomy-Aware Contrastive Representation Learning for Fetal Ultrasound</a>
+                    </b>
+                <p>Zeyu Fu; Jianbo Jiao; Robail Yasrab; Lior Drukker; Aris Papageorghiou; Alison Noble</p>
+
+
+                    <h4>Runners-up</h4>
+
+                    <b>
+                        <a href="https://youtu.be/i4hSCPn74qM">Simultaneous Detection and Classification of Partially and Weakly Supervised Cells</a>
+                    </b>
+                  <p>Alona Golts; Ido Livneh; Aaron Ciechanover; Michael Elad</p>
+
+                    <b>
+                        <a href="https://youtu.be/WLi1_ySwstw">qDWI-Morph: Motion-compensated quantitative Diffusion-Weighted MRI analysis for fetal lung maturity assessment</a>    
+                    </b>
+                    <p>Yael Zaffrani-Reznikov; Onur Afacan; Sila Kurugol; Simon K Warfield; Moti Freiman</p>
+
+                    
+                </div>
+            </div>
+        </section>
 
         <!-- Updates -->
         <section class="page-section bg-light" id="updates">
